@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.wpengine.canadiancmc.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>CMC Mobile</name>
+    <name>CMC Marketplace</name>
     <description>Canadian Commercial Mortgages Marketplace</description>
     <author email="Val@" href="http://canadiancmc.ca">VAL Webmaster</author>
 
@@ -48,5 +48,5 @@
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
     <content src="http://canadiancmc.wpengine.com" />
-    <access origin="http://canadiancmc.wpengine.com" subdomains="true" />
+    <access origin="*" subdomains="true" />
 </widget>
