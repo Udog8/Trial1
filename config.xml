@@ -12,6 +12,11 @@ comment out old phone gap version for 5.2
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
+<!--
+Incase full screen pref is required later
+	<preference name="fullscreen" value="true" />
+-->
+ 
  
 <!--
 comment out old phone gap plugins for 5.2 
@@ -42,7 +47,7 @@ comment out old phone gap plugins for 5.2
     <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
     <gap:plugin name="cordova-plugin-vibration" source="npm"/>
     <gap:plugin name="cordova-plugin-network-information" source="npm"/>
-    <gap:plugin name="com.simplec.plugins.localnotification" source="npm"/>
+    <gap:plugin name="com.simplec.plugins.localnotification" />
 
 	<icon src="icon.png" />
 	
