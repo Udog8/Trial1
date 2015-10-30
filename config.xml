@@ -16,7 +16,8 @@ comment out old phone gap version for 5.2
 Incase full screen pref is required later
 	<preference name="fullscreen" value="true" />
 -->
- 
+
+	<preference name="load-url-timeout" value="60000" /> 
  
 <!--
 comment out old phone gap plugins for 5.2 
